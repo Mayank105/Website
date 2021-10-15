@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+    overflow-x: hidden;
+    
+}
+.navlink1, .navlink2, .navlink3
+{
+    font-size: 1.2rem;
+   
+}
+/* .navlink2
+{
+    font-size: 1.2rem;
+} */
+ul{
+    position: relative;
+    right: -76%;
+    
+    
+}
+a.navbar-brand.navtitle
+{
+    font-size: 3rem;
+    padding-left:2% ;
+}
+section
+{
+    text-align: center;
+}
+.hello
+{
+    color: rgba(17, 79, 196, 0.993);
+    font-size: 3.5rem;
+}
+.welcome
+{
+    color: rgb(40, 100, 212);
+}
+.description
+{
+    color: darkgreen;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.description1{
+color: darkgreen;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img1
+{
+    width: 30%;
+    padding-bottom: 4%;
+}
+.second
+{
+    text-align: center;
+}
+.secpara
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: darkolivegreen;
+}
+/* .startup
+{
+   position:absolute;
+   width: 40%;
+  
+
+} */
+.box1
+{
+    background-color:violet;
+    border: black 2px solid;
+    border-radius: 10px; 
+    width: 20%;
+    padding:2% 0%;
+    position: absolute;
+    left: 30%;
+    
+}
+
+.login-img
+{
+    position: relative;
+    top: -10px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.loginbutton
+{
+    padding: 1%;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: li;
+    width: 85%;
+}
+.box2
+{
+    /* padding:10% 10%;
+    width: 200px;
+    background-color:violet;
+    position: static;
+    margin-left: 800%;
+    
+    border: black 2px solid;
+    border-radius: 10px; */
+    background-color:violet;
+    border: black 2px solid;
+    border-radius: 10px; 
+    width: 130%;
+    padding:4% 0%;
+    position: static;
+    left: 85%;
+    
+}
+@media only screen and (max-width:769px) {
+    .box2
+    {
+        position: static;
+        width: 200px;
+        height: 90%;
+        margin-left: 29%;
+        margin-top: 10%;
+    }
+    .box1
+    {
+        position: relative;
+        width:200px;
+        /* top: px; */
+    }
+    /* .javasc
+ {
+  width: 500px;   
+ } */
+}
+.signup-img
+{
+    position: relative;
+    top: -5px;
+    padding-bottom: 3%;
+}
+.sign-upbutton
+{
+    padding: 1%;
+    border: 2px solid rgb(0, 4, 255);
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    width: 85%;
+}
+footer
+{ text-align: center;
+    margin-top: 20%;
+    background-color: cornflowerblue;
+}
+.companiesbelief
+{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.believeimg
+{
+    width: 6%;
+    /* padding-left: 3%; */
+    position: relative;
+    left: 10px;
+}
+.complogo
+{
+    width: 25%;
+    padding-right: 5%;
+}
+ .mailsec
+ {
+     padding-top: 3%;
+ }
+ strong{
+     color: white;
+ }
+ .description
+ { 
+     text-align: center;
+     padding: 3%;
+     
+ }
+ ol
+ {
+    list-style: none;
+ }
+ .courses
+ {
+     font-size: large;
+     padding-bottom: 3%;
+ }
+ .courseicons
+ {
+     padding: 3%;
+     width: 20%;
+ }
+ 
+ .html,.css,.javasc
+ {
+    position: relative;
+    left: 10%;
+     width: 80%;
+     line-height: 2;
+
+ }
+ li{
+     color: rgb(78, 69, 212);
+ }
+ .loginbutton:hover{
+background-color: lightskyblue;
+ }
+ .sign-upbutton:hover
+ {
+background-color: rgb(79, 89, 221);
+color: white;
+ }
+ @media only screen and (max-width:431px)
+ {
+     .believeimg
+     {
+         position:relative;
+        
+         
+     }
+ }
